@@ -1,1 +1,1 @@
-# IoT-lab
+Ejemplos de la asignatura Internet de las Cosas (IoT) de Talavera de la Reina
