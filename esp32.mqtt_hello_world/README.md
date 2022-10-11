@@ -10,6 +10,9 @@ Al estar subscrito al canal donde publica, recibirá también el evento (el cual
 - Tener un broker mqtt ejecutando y con un `MQTT_USER`/`MQTT_PWD` configurado. Además, es necesario conocer la ip  y el puerto del broker (`BROKER_IP`/`BROKER_PORT`).
 - En función de la placa ESP32 empleada, puede ser necesario configurar el entorno de compilación en el archivo `platform.ini`
 
+# Dependencias
+- mosquitto (deb)
+
 
 ## Pruebas
 Es posible probar con un subscriptor mediante `mosquitto_sub`:
