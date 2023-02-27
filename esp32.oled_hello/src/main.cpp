@@ -18,12 +18,12 @@ void setup(void)
 {
   u8g2.begin();
   u8g2.setPowerSave(0);
+  u8g2.setFont(u8g2_font_u8glib_4_hf);
 }
 
 void loop(void)
 {
   u8g2.clearBuffer();
-  u8g2.setFont(u8g2_font_u8glib_4_hf);
   u8g2.drawStr(0, 5, "Hello friend!!");
   u8g2.drawStr(0, 15, "0123456789");
 

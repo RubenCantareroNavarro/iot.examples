@@ -1,7 +1,10 @@
-Hola mundo para módulo OLED, implementado con I2C.
+# Hola mundo para módulo OLED
 
-Pinout empleado en el ejemplo:
+Este ejemplo ha sido implementado con I2C.
+
+## Pinout empleado en el ejemplo
 - SCL: D1
 - SDA: D2
 
-Librería empleada: U8g2 by oliver
+## Dependencias
+- Librería U8g2 by oliver.
