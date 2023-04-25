@@ -14,3 +14,5 @@ const int MQTT_PORT = 1883;
 const char *MQTT_USER = "student";
 const char *MQTT_PASSWORD = "1234";
 const char *MQTT_TOPIC = "esp32/test";
+
+bool buzzer_state = false;

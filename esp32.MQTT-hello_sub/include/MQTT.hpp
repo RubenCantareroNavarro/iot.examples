@@ -33,4 +33,9 @@ void OnMqttReceived(char *topic, char *payload, AsyncMqttClientMessageProperties
 	String content = GetPayloadContent(payload, len);
 	Serial.print(content);
 	Serial.println();
+
+	buzzer_state = content == "ON" ? true : false;
+
+	Serial.print("Buzzer state: ");
+	Serial.println(buzzer_state);
 }
